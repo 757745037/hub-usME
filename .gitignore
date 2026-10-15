@@ -1,0 +1,35 @@
+# ---- 本地凭据（绝对不要提交）----
+# 本工作区把 HTTPS 凭据存放在 .dsh-git-credentials 中（仓库级 credential.helper，
+# 只在本仓库生效，不污染全局配置），该文件已被忽略，不会被推送。
+.dsh-git-credentials
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 测试与缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.ipynb_checkpoints/
+Thumbs.db
+desktop.ini
