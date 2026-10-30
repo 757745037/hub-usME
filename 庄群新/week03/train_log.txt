@@ -1,0 +1,47 @@
+﻿数据目录：D:\BaiduNetdiskDownload\AILearningSpace\Python\hub-usME\庄群新\week03\data\langid\v12
+  训练 9600 条 / 验证 1200 条 / 测试 1800 条
+  类别 12 个：ar en es hi ja ko pt ru th tr vi zh
+  字符表 3276 个字符（已从 v12 训练集生成字符表并写入 vocab_v12.txt）
+  随机猜的准确率基准：8.3%
+  模型参数量：218,892
+
+Epoch  1/8  loss=1.0338  dev_acc=0.9142
+Epoch  2/8  loss=0.3117  dev_acc=0.9392
+Epoch  3/8  loss=0.1998  dev_acc=0.9542
+Epoch  4/8  loss=0.1520  dev_acc=0.9608
+Epoch  5/8  loss=0.1322  dev_acc=0.9608
+Epoch  6/8  loss=0.1174  dev_acc=0.9617
+Epoch  7/8  loss=0.1071  dev_acc=0.9633
+Epoch  8/8  loss=0.0964  dev_acc=0.9642
+
+训练耗时：8 秒（8 个 epoch，1 线程）
+
+测试集：accuracy = 0.9533   macro-F1 = 0.9537
+  最常混淆的组合（真实 → 预测）：
+    pt → es: 36 条
+    en → es: 10 条
+    es → pt: 7 条
+    en → tr: 7 条
+    tr → es: 4 条
+
+  各语种准确率：
+    ar: 150/150 = 1.000
+    en: 132/150 = 0.880
+    es: 141/150 = 0.940
+    hi: 150/150 = 1.000
+    ja: 149/150 = 0.993
+    ko: 148/150 = 0.987
+    pt: 111/150 = 0.740
+    ru: 150/150 = 1.000
+    th: 150/150 = 1.000
+    tr: 140/150 = 0.933
+    vi: 146/150 = 0.973
+    zh: 149/150 = 0.993
+
+--- 推理示例 ---
+  [hi 1.00]  यह सूटकेस लीजिए।
+  [es 0.95]  Es la mujer de mis sueños.
+  [th 1.00]  ขอบคุณที่รอ
+  [ar 1.00]  هل أنجزت جميع فروضك؟
+
+模型已保存：langid_rnn_v12.pt
