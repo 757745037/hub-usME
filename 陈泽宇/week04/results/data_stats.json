@@ -1,0 +1,40 @@
+{
+  "sha256": "9b1a534aec3ea892fefa56fd16d48538e93c599e965352fae2455bbc51656acd",
+  "split_sha256": "55c6b4230e25c8447b2b1f7cad6cc7ad05332c8c987fb2e9ca413385361e57ac",
+  "raw_lines": 395286,
+  "blank_lines": 0,
+  "duplicate_lines": 149734,
+  "split_seed": 42,
+  "groups": {
+    "train": 206809,
+    "val": 11489,
+    "test": 11489
+  },
+  "vocab_size": 4004,
+  "splits": {
+    "train": {
+      "lines": 220983,
+      "characters": 3482170,
+      "targets": 3703153,
+      "oov_chars": 2495,
+      "oov_rate": 0.0007165072354307802,
+      "long_lines": 7035
+    },
+    "val": {
+      "lines": 12265,
+      "characters": 196006,
+      "targets": 208271,
+      "oov_chars": 165,
+      "oov_rate": 0.0008418109649704601,
+      "long_lines": 397
+    },
+    "test": {
+      "lines": 12304,
+      "characters": 194356,
+      "targets": 206660,
+      "oov_chars": 182,
+      "oov_rate": 0.0009364259400275783,
+      "long_lines": 413
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "context": 64,
+  "model": {
+    "width": 192,
+    "heads": 3,
+    "layers": 4,
+    "dropout": 0.1
+  },
+  "seed": 42,
+  "batch_size": 128,
+  "weight_decay": 0.1,
+  "warmup_steps": 250,
+  "patience": 4,
+  "lr": 0.0016,
+  "epochs": 20
+}

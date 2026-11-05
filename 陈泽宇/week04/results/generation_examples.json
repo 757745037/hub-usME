@@ -1,0 +1,75 @@
+{
+  "device": "cpu",
+  "torch": "2.7.1+cpu",
+  "top_k": 40,
+  "top_p": 0.9,
+  "max_new": 48,
+  "examples": [
+    {
+      "temperature": 0.0,
+      "seed": 42,
+      "exact_match_in_train": true,
+      "prompt": "如何学习",
+      "continuation": "英语",
+      "text": "如何学习英语",
+      "stopped_by_eos": true,
+      "new_chars": 2,
+      "prompt_unknown_chars": 0
+    },
+    {
+      "temperature": 0.85,
+      "seed": 42,
+      "exact_match_in_train": false,
+      "prompt": "如何学习",
+      "continuation": "英语单词",
+      "text": "如何学习英语单词",
+      "stopped_by_eos": true,
+      "new_chars": 4,
+      "prompt_unknown_chars": 0
+    },
+    {
+      "temperature": 0.85,
+      "seed": 43,
+      "exact_match_in_train": false,
+      "prompt": "如何学习",
+      "continuation": "拼音",
+      "text": "如何学习拼音",
+      "stopped_by_eos": true,
+      "new_chars": 2,
+      "prompt_unknown_chars": 0
+    },
+    {
+      "temperature": 0.85,
+      "seed": 42,
+      "exact_match_in_train": false,
+      "prompt": "我的手机",
+      "continuation": "怎么注册淘宝账户",
+      "text": "我的手机怎么注册淘宝账户",
+      "stopped_by_eos": true,
+      "new_chars": 8,
+      "prompt_unknown_chars": 0
+    },
+    {
+      "temperature": 0.85,
+      "seed": 42,
+      "exact_match_in_train": false,
+      "prompt": "今天天气",
+      "continuation": "怎样",
+      "text": "今天天气怎样",
+      "stopped_by_eos": true,
+      "new_chars": 2,
+      "prompt_unknown_chars": 0
+    },
+    {
+      "temperature": 0.85,
+      "seed": 42,
+      "exact_match_in_train": false,
+      "prompt": "在轨道空间站里",
+      "continuation": "怎么刷金币?",
+      "text": "在轨道空间站里怎么刷金币?",
+      "stopped_by_eos": true,
+      "new_chars": 6,
+      "prompt_unknown_chars": 0
+    }
+  ]
+}
