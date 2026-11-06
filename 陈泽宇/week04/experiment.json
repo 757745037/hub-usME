@@ -1,0 +1,14 @@
+{
+  "common": {
+    "context": 64,
+    "model": {"width": 192, "heads": 3, "layers": 4, "dropout": 0.1},
+    "seed": 42,
+    "batch_size": 128,
+    "weight_decay": 0.1,
+    "warmup_steps": 250,
+    "patience": 4
+  },
+  "learning_rates": [0.0008, 0.0012, 0.0016],
+  "trial_epochs": 3,
+  "final_epochs": 20
+}
